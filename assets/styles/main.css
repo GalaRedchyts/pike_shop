@@ -1,0 +1,274 @@
+/* HEADER BLOCK */
+#header{
+    background: rgba(27, 225, 225, 0.49);
+    padding: 8px 0;
+    position: fixed;
+    width: 100%;
+}
+#logo{
+    display: flex;
+    width: 30%;
+}
+#logo a img {
+    width: 55px;
+    height: 60px;
+}
+a {
+    text-decoration: none;
+}
+a:visited,
+a:focus{
+    color: #636464;
+}
+.section-gap {
+    padding: 95px 0;
+}
+
+#nav-menu-container {
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    max-width: 70%;
+    width: 100%;
+}
+    #nav-menu-container .nav-menu {
+        display: flex;
+        list-style-type: none;
+    }
+    #nav-menu-container .nav-menu li{
+        margin: 8px;
+        font-weight: bold;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+}
+#nav-menu-container .nav-menu img{
+    width: 25px;
+    height: 25px;
+}
+    #nav-menu-container .nav-menu li a{
+        color: #000000;
+}
+    #nav-menu-container .nav-menu li a:hover{
+        color: #636464;
+}
+/* END HEADER BLOCK */
+
+
+/* Baner Block */
+
+#banner {
+    background-image: url("../images/1/slider2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#banner .banner-row{
+    height: 855px;
+}
+#banner .banner-slide-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    color: #20483c;
+}
+/* END Baner Block */
+/* Pets tutorials */
+    #Pets-tutorials .video {
+        background-image: url("../images/1/overlay.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 380px;
+        border-radius: 10px;
+        position: relative;
+        padding: 0;
+    }
+#Pets-tutorials .video .play-btn img{
+    width: 40px;
+    height: 40px;
+}
+    #Pets-tutorials .video .overlay {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.5);
+        border-radius: 10px;
+        z-index: 1;
+    }
+    #Pets-tutorials .video .play-btn {
+        z-index: 2;
+    }
+/* END Pets tutorials */
+
+/* Goods */
+#Goods {
+    background-image: url("../images/1/slider3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.goods-content {
+    background-image: url("../images/1/goods-content.jpg");
+    padding: 20px;
+    margin: 16px 8px;
+    border-radius: 10px;
+    box-shadow: 0 4px 13px 0 #b68834;
+}
+#Goods .goods-item {
+    background: #a3da96;
+    padding: 20px;
+    margin: 16px 8px;
+    border-radius: 10px;
+    box-shadow: 0 4px 13px 0 #b68834;
+}
+#Goods .goods-item:hover {
+    cursor: pointer;
+    box-shadow: 0 1px 20px 0 #286e4b;
+}
+/* END Goods */
+
+/* Galerry */
+.gallery-content {
+    padding: 20px;
+    margin: 16px 8px;
+}
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 5vw);
+    grid-gap: 15px;
+    align-items: stretch;
+}
+.gallery_img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    background-repeat: no-repeat;
+}
+.gallery_item-1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.gallery_item-2 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 6;
+}
+.gallery_item-3 {
+    grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start: 1;
+    grid-row-end: 6;
+}
+.gallery_item-4 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.gallery_item-5 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 6;
+    grid-row-end: 9;
+}
+.gallery_item-6 {
+    grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start: 6;
+    grid-row-end: 9;
+}
+/* END Gallery */
+
+/* Review */
+#Review {
+    background-image: url("../images/1/goods-content.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.review-content {
+    background: #bfe3ec;
+    padding: 20px;
+    margin: 16px 8px;
+    border-radius: 10px;
+    box-shadow: 0 4px 13px 0 #b68834;
+}
+#Review .review-item {
+    padding: 20px;
+    margin: 16px 8px;
+}
+#Review .review-item img {
+    width: 95px;
+    height: 95px;
+}
+
+/* END Review */
+
+/* Blog */
+.blog-content {
+    padding: 20px;
+    margin: 16px 8px;
+}
+#Blog .blog-item {
+    padding: 20px;
+    margin: 16px 8px;
+}
+#Blog .blog-item img {
+    width: 550px;
+    height: 550px;
+}
+
+/* END Blog */
+.modal-content {
+    background: rgb(122, 210, 166);
+}
+.goods-block{
+    width: 100%;
+    margin: 10px;
+    border: 1px solid #a49f9f;
+    border-radius: 5px;
+}
+.goods-block .goods-price {
+    border-left: 1px solid #a4a9a9;
+    border-right: 1px solid #a4a9a9;
+}
+body .alert.notification {
+    width: 25%;
+    position: fixed;
+    top: 120px;
+    right: 15px;
+}
+.btn-primary {
+    background: rgb(59, 147, 105);
+}
+#register .picture {
+    background-image: url("../images/register.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 380px;
+    border-radius: 10px;
+    padding: 0;
+    position: relative;
+}
+
+.picture .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    z-index: 1;
+}
+#login .picture {
+    background-image: url("../images/img2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 550px;
+    height: 550px;
+    border-radius: 10px;
+    padding: 0;
+    position: relative;
+}
